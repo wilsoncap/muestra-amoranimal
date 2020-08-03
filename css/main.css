@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Media Queries Mixin
+**********************/
+.header {
+  background: purple;
+  color: #f1cdcd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  box-shadow: 0px 3px 15px #b3b3b3;
+}
+.header .header-logo {
+  width: 200px;
+  height: 80px;
+  padding-left: 20px;
+}
+
+.header-menu {
+  display: flex;
+  margin-right: 20px;
+  list-style: none;
+}
+.header-menu a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .header-menu {
+    display: flex;
+  }
+}
+
+.banner {
+  height: 400px;
+  background-color: #6d6df1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner h1 {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.botones {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+.botones a {
+  padding: 15px 90px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  margin-right: 20px;
+}
+
+.about_we {
+  height: 300px;
+  background-color: #bbe468;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about_we-foto {
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+  padding: 1px;
+}
+
+.our-work {
+  height: 400px;
+  width: 100%;
+  background-color: #a7eaff;
+}
+.our-work .our-work-title {
+  color: gray;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.our-work-items {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
