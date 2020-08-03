@@ -105,7 +105,7 @@ body {
 .our-work {
   height: 400px;
   width: 100%;
-  background-image: #78D7DD;
+  background: lightblue url("/public/img/trama1.png") repeat fixed center;
 }
 .our-work .our-work-title {
   color: gray;
