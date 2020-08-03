@@ -12,8 +12,7 @@ body {
 /* Media Queries Mixin
 **********************/
 .header {
-  background: purple;
-  color: #f1cdcd;
+  background-image: url("/public/img/trama1.png");
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,10 +31,10 @@ body {
   list-style: none;
 }
 .header-menu a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
 @media only screen and (max-width: 768px) {
@@ -55,8 +54,10 @@ body {
 }
 
 .banner {
-  height: 400px;
-  background-color: #6d6df1;
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   display: flex;
   justify-content: center;
@@ -74,12 +75,14 @@ body {
   padding-left: 30px;
 }
 .botones a {
-  padding: 15px 90px;
+  padding: 10px 50px;
   text-decoration: none;
-  border: 1px solid white;
-  border-radius: 10px;
+  background-color: #F06301;
+  border-radius: 30px;
   color: white;
   margin-right: 20px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .about_we {
@@ -93,7 +96,7 @@ body {
 }
 
 .about_we-foto {
-  background-color: purple;
+  background-color: #78D7DD;
   width: 200px;
   height: 200px;
   padding: 1px;
@@ -102,7 +105,7 @@ body {
 .our-work {
   height: 400px;
   width: 100%;
-  background-color: #a7eaff;
+  background-image: #78D7DD;
 }
 .our-work .our-work-title {
   color: gray;
